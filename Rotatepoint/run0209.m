@@ -1,6 +1,7 @@
 % input angle here, Positive value means clockwise rotation
 angle = 22.5;
-
+% Origin: origin point
+% Rotate: Coordinate after rotation
 sz = size(Origin);
 Rotate = zeros(sz);
 theta = (angle/360)*2*pi;
